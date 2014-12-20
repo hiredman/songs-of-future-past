@@ -2,7 +2,7 @@
 
 SoFP is a dj for your
 [MPD](http://mpd.wikia.com/wiki/Music_Player_Daemon_Wiki) setup. SoFP
-monitors you MPD playlist and watches what songs you play after other
+monitors your MPD playlist and watches what songs you play after other
 songs building a graph of which songs follow which and how often they
 do. With the graph in hand SoFP can do weighted random walks (like a
 markov chain) to add songs to your playlist.
