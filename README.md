@@ -12,10 +12,17 @@ markov chain) to add songs to your playlist.
 Download the sofp jar from http://thelibraryofcongress.s3.amazonaws.com/sofp-0.1.0-standalone.jar
 
 ```shell
-MPD_HOST=mpdhost.local MPD_PORT=2344 java -jar ${SOFP_JAR}
+MPD_HOST=mpdhost.local MPD_PORT=2344 java -jar $SOFP_JAR
 ```
 
 SoFP persists data in a derby database in `$HOME/.sofp.db` 
+
+`kill -TRAP $SOFP_PID` will start an nrepl server on 127.0.0.1:7888 in
+the SoFP process.
+
+`kill -USR2 $SOFP_PID` will cause a page rank of the song graph to be
+computed and the top 20 songs to be logged out. This can take a long
+time.
 
 The following is the actual command line I use to launch SoFP:
 ```shell
