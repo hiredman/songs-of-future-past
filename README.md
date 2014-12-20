@@ -15,6 +15,11 @@ MPD_HOST=mpdhost.local MPD_PORT=2344 java -jar ${SOFP_JAR}
 
 SoFP persists data in a derby database in `$HOME/.sofp.db` 
 
+The following is the actual command line I use to launch SoFP:
+```shell
+MPD_HOST=pug.local MPD_PORT=6600 java -server -Xmx32m -Xms32m -XX:+UseTLAB -XX:-PrintGC -XX:+DoEscapeAnalysis -XX:+AdjustConcurrency -XX:+UseThreadPriorities -XX:+AggressiveOpts -XX:+UseFastAccessorMethods -Dfile.encoding=utf-8 -Djava.net.preferIPv4Stack=true -XX:+UseG1GC -jar sofp-0.1.0-SNAPSHOT-standalone.jar   
+```
+
 ## License
 
 Copyright © 2014 Kevin Downey
