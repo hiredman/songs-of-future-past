@@ -1,5 +1,5 @@
-(defproject com.manigfeald/sofp "0.1.0-SNAPSHOT"
-  :description "FIXME: write description"
+(defproject com.manigfeald/sofp "0.1.0"
+  :description "markov chain style dj for mpd"
   :url "http://example.com/FIXME"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
