@@ -1,4 +1,4 @@
-(defproject com.manigfeald/sofp "0.1.0"
+(defproject com.manigfeald/sofp "0.2.0-SNAPSHOT"
   :description "markov chain style dj for mpd"
   :url "http://example.com/FIXME"
   :license {:name "Eclipse Public License"
