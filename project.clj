@@ -15,4 +15,5 @@
                  [aysylu/loom "0.5.0"]
                  [org.clojure/tools.nrepl "0.2.5"]
                  [com.manigfeald/graph "0.2.0"]]
-  :main com.manigfeald.sofp)
+  :main com.manigfeald.sofp
+  :aot #{com.manigfeald.sofp})
