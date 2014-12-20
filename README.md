@@ -9,6 +9,8 @@ markov chain) to add songs to your playlist.
 
 ## Usage
 
+Download the sofp jar from http://thelibraryofcongress.s3.amazonaws.com/sofp-0.1.0-standalone.jar
+
 ```shell
 MPD_HOST=mpdhost.local MPD_PORT=2344 java -jar ${SOFP_JAR}
 ```
